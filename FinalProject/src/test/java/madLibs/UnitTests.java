@@ -4,7 +4,7 @@ import static org.junit.Assert.*;
 
 import org.junit.*;
 
-public class StoryTest {
+public class UnitTests {
 
 	@Test
 	public void roadTripStoryCorrect() {
@@ -47,5 +47,21 @@ public class StoryTest {
 				+ "\nOther amusement park rides are the bumper cars, which have a little computer that you"
 				+ " drive and run into other teeth, \nand the merry-go-round, where you can sit on a big"
 				+ " lion \nand try to grab the gold google as you ride past it. Enjoy your day!", story.getStory());
+	}
+	
+	@Test 
+	public void driversChecklistCorrect() {
+		String[]contents= {"fat", "brown", "cholent", "wooly",
+				"bottles", "mouse", "lips", "brilliantly",
+				"hair", "juice", "car", "gasoline",
+				"keypads", "case", "54 billion"};
+		DriversChecklist story = new DriversChecklist(contents);
+		assertEquals("Before you follow the open road to a/an fat adventure, Dont forget to:\\n\"+\r\n" + 
+				"							  \"1. Have a/an brown mechanic give your cholent a/an wooly tune-up.\\n\"+\r\n" + 
+				"							  \"2. Make sure there is sufficient air in all four bottles as well as in your spare mouse.\\n\" +\r\n" + 
+				"							  \"3. Make sure your windshield lips are fuctioning brilliantly.\\n\"+\r\n" + 
+				"							  \"4. Be sure to have a flash hair, some bottled juice, and an emergency car kit in your glove gasoline.\\n\"+\r\n" + 
+				"							  \"5. For your safety and the safety of other keypads, don't even think about getting behind the case\\n\"+ \r\n" + 
+				"							  \"   of the car without getting a good night's sleep of at least 54 billion hours.", story.getStory());
 	}
 }
