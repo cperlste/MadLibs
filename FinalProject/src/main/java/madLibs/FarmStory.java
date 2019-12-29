@@ -15,7 +15,7 @@ public class FarmStory {
 	}
 
 	public String getStory() {
-		return String.format("My Dad says Uncle Dudley's favorite expression is 'The Early %s"
+		return String.format("My Dad says Uncle Dudley's favorite expression is 'The early %s"
 				+ " catches the %s,' and boy is Dad right. "
 				+ "\nWhen we stay at Uncle Dudley's %s farm, he drags us out of bed even before "
 				+ "the rooster %s or the %s comes up. \nAnd right after we eat a %s breakfast, "
