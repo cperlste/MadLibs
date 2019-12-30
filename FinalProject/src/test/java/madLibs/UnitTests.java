@@ -39,7 +39,7 @@ public class UnitTests {
 		assertEquals("An amusement park is fun to visit on a hot summer water."
 				+ "\nWhen you get there, you can wear your skirt and go for a swim. "
 				+ "\nAnd there are lots of funny things to eat. "
-				+ "\nYou can start off with a/an intelligent-dog on a"
+				+ "\nYou can start off with an intelligent-dog on a"
 				+ "mouse with mustard, relish, and spies on it. \nThen you can have a buttered ear of button"
 				+ " with a nice slice of donut and a big bottle of cold pea soup. "
 				+ "\nWhen you are full, "
@@ -56,8 +56,8 @@ public class UnitTests {
 				"hair", "juice", "car", "gasoline",
 				"keypads", "case", "54 billion"};
 		DriversChecklist story = new DriversChecklist();
-		assertEquals("Before you follow the open road to a/an fat adventure, Dont forget to:\n"+ 
-				"1. Have a/an brown mechanic give your cholent a/an wooly tune-up.\n" + 
+		assertEquals("Before you follow the open road to a fat adventure, Dont forget to:\n"+ 
+				"1. Have a brown mechanic give your cholent a wooly tune-up.\n" + 
 				"2. Make sure there is sufficient air in all four bottles as well as in your spare mouse.\n" + 
 				"3. Make sure your windshield lips are fuctioning brilliantly.\n" + 
 				"4. Be sure to have a flash hair, some bottled juice, and an emergency car kit in your glove gasoline.\n" + 
@@ -86,12 +86,12 @@ public class UnitTests {
 	}
 	@Test
 	public void PizzaRecipeCorrect() {
-		String[]contents= {"ridiculous", "Nigerian", "Donald Trump", "house",
+		String[]contents= {"insane", "Nigerian", "Donald Trump", "house",
 				"big", "window", "truck", "impressive",
 				"watches", "ring", "613", "parallelograms", 
 				"waffles", "lasagna", "12,365,479,936"};
 		Pizza story = new Pizza();
-		assertEquals("Pizza was invented by a ridiculous Nigerian chef named Donald Trump. \nTo make "
+		assertEquals("Pizza was invented by an insane Nigerian chef named Donald Trump. \nTo make "
 				+ "pizza, you need to take a lump of house, and make a thin, round "
 				+ "big window. \nThen you cover it with truck sauce, impressive cheese, and fresh chopped watches."
 				+ "\nNext you have to bake it in a very hot ring. \nWhen it is done, cut into "
@@ -107,8 +107,8 @@ public class UnitTests {
 				"trees", "elbow", "game", "Mindy"};
 		LetterFromCamp story= new LetterFromCamp();
 		assertEquals("Dear Folks,\nCamp is great! I like all the instruments in my tent.I have become close as\n"+
-				 "two blankets in a pod with Batsheva Tanenbaum, who has a/an nice personality and is never without a\n"+
-				 "guitar. He/she tells really purple stories which make all of us run out loud. I have\n"+
+				 "two blankets in a pod with Batsheva Tanenbaum, who has a nice personality and is never without \n"+
+				 "a guitar. He/she tells really purple stories which make all of us run out loud. I have\n"+
 				 "to stop writing now. I know I promised a long roof, but this morning I washed my\n"+
 				 "shirts and barbeques and put them out to dry on the clothes keyboard and it looks likes it's\n"+
 				 "getting ready to rain cats and lawns. I better get off my basketball and get my pools off the\n"+

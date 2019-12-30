@@ -1,6 +1,6 @@
 package madLibs;
 
-public class RoadTrip{
+public class RoadTrip extends Story{
 	static String[] prompts= {
 			"an adjective", "a place", "an adjective", "an adjective", 
 			"a plural noun", "a plural noun", "a noun", "a verb", 
