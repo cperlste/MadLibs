@@ -1,23 +1,12 @@
 package madLibs;
 
 public class LetterFromCamp {
-	private static String[] prompts= {
+	static String[] prompts= {
 			"a plural noun", "a plural noun", "full name of a person in room", "an adjective",
 			"a noun", "an adjective", "a verb", "a noun","a plural noun", "a noun",
 			 "a plural noun", "a noun","a plural noun", "a noun", "an adjective",
 			"a plural noun", "an body part", "a noun", "name of a person in room"};
-	private String[] userInput= new String[prompts.length];
-	
-	public LetterFromCamp(String [] userInput) {
-		this.userInput=userInput;
-	}
-	public static String [] getPrompts() {
-		return prompts;
-	}
-	public String[] getUserInput() {
-		return this.userInput;
-	}
-	public String getStory() {
+	public String getStory(String[]userInput) {
 		return String.format("Dear Folks,\nCamp is great! I like all the %s in my tent.I have become close as\n"+
 							 "two %s in a pod with %s, who has a/an %s personality and is never without a\n"+
 							 "%s. He/she tells really %s stories which make all of us %s out loud. I have\n"+

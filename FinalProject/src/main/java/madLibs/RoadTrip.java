@@ -1,27 +1,14 @@
 package madLibs;
 
 public class RoadTrip{
-	private static String[] prompts= {
+	static String[] prompts= {
 			"an adjective", "a place", "an adjective", "an adjective", 
 			"a plural noun", "a plural noun", "a noun", "a verb", 
 			"a noun", "a verb ending in ed", "an action verb in past tense", "a plural noun", 
 			"a noun", "a verb ending in ING", "a noun", "a number", 
 			"an adjective", "an action verb", "a verb", "an adjective", 
 			"a noun"};
-	private String[] userInput= new String[prompts.length];
-	
-	public RoadTrip(String [] userInput) {
-		this.userInput=userInput;
-	}
-	
-	public static String [] getPrompts() {
-		return prompts;
-	}
-	
-	public String[] getUserInput() {
-		return this.userInput;
-	}
-	public String getStory() {
+	public String getStory(String[]userInput) {
 		return String.format("On the %s trip to %s, my  %s friend and I decided to invent a game."
 				+ " \nSince this would be a rather  %s trip,"
 				+ " it would need to be a game with  %s and  %s."

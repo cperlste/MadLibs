@@ -1,22 +1,12 @@
 package madLibs;
 
 public class Pizza {
-	private static String[]prompts= {
+	static String[]prompts= {
 			"an adjective", "a nationality", "the name of a famous person", "a noun",
 			"an adjective", "a noun", "an adjective", "an adjective",
 			"a plural noun", "a noun", "a number", "a shape in plural form", 
 			"a food", "another food", "a number"};
-	private String[] userInput= new String[prompts.length];
-	
-	public Pizza(String[] userInput) {
-		this.userInput=userInput;
-	}
-
-	public static String[] getPrompts() {
-		return prompts;
-	}
-
-	public String getStory() {
+	public String getStory(String[]userInput) {
 		return String.format("Pizza was invented by a %s %s chef named %s. \nTo make "
 				+ "pizza, you need to take a lump of %s, and make a thin, round "
 				+ "%s %s. \nThen you cover it with %s sauce, %s cheese, and fresh chopped %s."

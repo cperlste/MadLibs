@@ -1,20 +1,14 @@
 package madLibs;
 
 public class FarmStory {
-	private static String[] prompts= {
+	static String[] prompts= {
 			"a noun", "a noun", "an adjective", "a verb ending in S", 
 			"a noun", "an adjective", "a plural noun", "a plural noun", 
 			"a plural noun","a verb", "a body part", "a verb ending in ING", 
 			"a noun", "an adjective", "a noun", "an adjective", 
 			"a noun"
 			};
-	private String[] userInput= new String[prompts.length];
-	
-	public FarmStory(String[] userInput) {
-		this.userInput=userInput;
-	}
-
-	public String getStory() {
+	public String getStory(String[] userInput) {
 		return String.format("My Dad says Uncle Dudley's favorite expression is 'The early %s"
 				+ " catches the %s,' and boy is Dad right. "
 				+ "\nWhen we stay at Uncle Dudley's %s farm, he drags us out of bed even before "
@@ -27,12 +21,4 @@ public class FarmStory {
 				userInput[9],userInput[10], userInput[11], userInput[12], userInput[13],
 				userInput[14], userInput[15], userInput[16]);
 	}
-
-	public static String[] getPrompts() {
-		return prompts;
-	}
-	public String[] getUserInput() {
-		return this.userInput;
-	}
-
 }
