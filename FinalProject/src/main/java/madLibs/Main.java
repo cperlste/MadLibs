@@ -49,7 +49,6 @@ private static void getStoryFromChoice(Scanner kb, int storyChoice) {
 			break;
 		case 7:
 			System.out.println("Thank you for playing! MadLibs is exiting.");
-			System.exit(0);
 		default:
 			System.out.println("Error. Invalid Selection");
 	}
