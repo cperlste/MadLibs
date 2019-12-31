@@ -6,7 +6,7 @@ public class DriversChecklist extends Story{
 			"a plural noun", "a noun", "a plural noun", "an adverb",
 			"a noun", "a liquid", "a noun", "a noun",
 			"a plural noun", "a noun", "a number"};
-	public String getStory(String[]userInput) {
+	public String getStory(String [] userInput) {
 		return String.format("Before you follow the open road to %s adventure, Dont forget to:\n"+
 							  "1. Have %s mechanic give your %s %s tune-up.\n"+
 							  "2. Make sure there is sufficient air in all four %s as well as in your spare %s.\n" +
