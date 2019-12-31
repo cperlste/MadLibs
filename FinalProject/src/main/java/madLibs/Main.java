@@ -36,8 +36,8 @@ public static void main(String[]args) {
 				break;
 			case 5:
 				String [] userInputsDriversChecklist=storySetup(kb, DriversChecklist.getPrompts());
-				DriversChecklist check= new DriversChecklist(userInputsDriversChecklist);
-				System.out.println(check.getStory());
+				DriversChecklist check= new DriversChecklist();
+				System.out.println(check.getStory(userInputsDriversChecklist));
 				break;
 			case 6:
 				String [] userInputsLetterFromCamp=storySetup(kb, LetterFromCamp.getPrompts());

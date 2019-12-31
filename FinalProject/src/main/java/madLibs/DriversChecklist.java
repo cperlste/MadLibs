@@ -6,18 +6,12 @@ public class DriversChecklist {
 			"a plural noun", "a noun", "a plural noun", "an adverb",
 			"a noun", "a liquid", "a noun", "a noun",
 			"a plural noun", "a noun", "a number"};
-	private String[] userInput= new String[prompts.length];
-	
-	public DriversChecklist(String [] userInput) {
-		this.userInput=userInput;
-	}
+
 	public static String [] getPrompts() {
 		return prompts;
 	}
-	public String[] getUserInput() {
-		return this.userInput;
-	}
-	public String getStory() {
+
+	public String getStory(String [] userInput) {
 		return String.format("Before you follow the open road to a/an %s adventure, Dont forget to:\n"+
 							  "1. Have a/an %s mechanic give your %s a/an %s tune-up.\n"+
 							  "2. Make sure there is sufficient air in all four %s as well as in your spare %s.\n" +
