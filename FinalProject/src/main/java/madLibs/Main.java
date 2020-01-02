@@ -11,8 +11,8 @@ public static void main(String[]args) {
 	while(storyChoice!=7) {
 		storyChoice = getStoryChoice(kb);
 		getStoryFromChoice(kb, storyChoice);
-		System.out.println("1 for Road Trip, 2 for Uncle Dudley's Farm, 3 for Pizza Recipe, 4 for Amusement Parks,\n"+
-							"5 for Driver's Checklist, 6 for Letter From Camp, 7 to Exit");
+		System.out.println("1 for Road Trip, \n2 for Uncle Dudley's Farm, \n3 for Pizza Recipe, \n4 for Amusement Parks,\n"+
+							"\n5 for Driver's Checklist, \n6 for Letter From Camp, 7 to Exit");
 		storyChoice= kb.nextInt();
 		kb.nextLine();
 		switch(storyChoice) {
