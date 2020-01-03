@@ -1,6 +1,11 @@
 package madLibs;
 
-public class Story {
+public abstract class Story {
+	public abstract String[] getPrompts();
+	public abstract String getFormat();
+	public String getStory(String[] userInput) {
+		return String.format(getFormat(), (Object []) userInput);
+	}
 	public String testForVowel(String string) {
 		if (string.toUpperCase().charAt(0)== 'A'
 				||string.toUpperCase().charAt(0)== 'E'

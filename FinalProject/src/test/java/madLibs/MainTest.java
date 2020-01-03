@@ -8,7 +8,7 @@ import org.mockito.Mockito;
 
 public class MainTest {
 	@Test
-	public void testGetChoice1() {
+	public void testGetChoice() {
 		Prompter prompter= Mockito.mock(Prompter.class);
 		//if the parameter is a string, answer 1
 		//second param means that after entering 1, enter 7 to exit
