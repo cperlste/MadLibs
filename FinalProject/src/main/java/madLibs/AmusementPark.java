@@ -13,7 +13,7 @@ public class AmusementPark extends Story {
 	@Override
 	public String getFormat() {
 		return "An amusement park is fun to visit on a hot summer %s.\nWhen you get there, you can wear your %s and go for a swim. "
-		+ "\nAnd there are lots of %s things to eat. \nYou can start off with %s-dog on "
+		+ "\nAnd there are lots of %s things to eat. \nYou can start off with a %s-dog on a "
 		+ "%s with mustard, relish, and %s on it. \nThen you can have a buttered ear of %s"
 		+ " with a nice slice of %s and a big bottle of cold %s. \nWhen you are full, "
 		+ "it's time to go on the roller coaster, which should settle your %s. "

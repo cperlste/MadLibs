@@ -53,7 +53,7 @@ public class Tests {
 		@Test 
 		public void amusementParkStoryCorrect() {
 			String[] contents= {
-					"water", "skirt", "funny", "intelligent",
+					"water", "skirt", "funny", "silly",
 					"mouse", "spies", "button",
 					"donut", "pea soup", "toe", "computer", 
 					"teeth", "lion", "google"};
@@ -61,7 +61,7 @@ public class Tests {
 			assertEquals("An amusement park is fun to visit on a hot summer water."
 					+ "\nWhen you get there, you can wear your skirt and go for a swim. "
 					+ "\nAnd there are lots of funny things to eat. "
-					+ "\nYou can start off with an intelligent-dog on a "
+					+ "\nYou can start off with a silly-dog on a "
 					+ "mouse with mustard, relish, and spies on it. \nThen you can have a buttered ear of button"
 					+ " with a nice slice of donut and a big bottle of cold pea soup. "
 					+ "\nWhen you are full, "

@@ -13,8 +13,8 @@ public class LetterFromCamp extends Story {
 	@Override
 	public String getFormat() {
 		return "Dear Folks,\nCamp is great! I like all the %s in my tent.I have become close as\n"
-				+ "two %s in a pod with %s, who has %s personality and is never without \n"
-				+ "%s. He/she tells really %s stories which make all of us %s out loud. I have\n"
+				+ "two %s in a pod with %s, who has a %s personality and is never without \n"
+				+ "a %s. He/she tells really %s stories which make all of us %s out loud. I have\n"
 				+ "to stop writing now. I know I promised a long %s, but this morning I washed my\n"
 				+ "shirts and %s and put them out to dry on the clothes %s and it looks likes it's\n"
 				+ "getting ready to rain cats and %s. I better get off my %s and get my %s off the\n"

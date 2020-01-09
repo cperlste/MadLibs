@@ -13,8 +13,8 @@ public class DriversChecklist extends Story{
 	@Override
 	public String getFormat() {
 		// TODO Auto-generated method stub
-		return "Before you follow the open road to %s adventure, Dont forget to:\n"+
-		  "1. Have %s mechanic give your %s %s tune-up.\n"+
+		return "Before you follow the open road to a %s adventure, Dont forget to:\n"+
+		  "1. Have a %s mechanic give your %s a %s tune-up.\n"+
 		  "2. Make sure there is sufficient air in all four %s as well as in your spare %s.\n" +
 		  "3. Make sure your windshield %s are fuctioning %s.\n"+
 		  "4. Be sure to have a flash %s, some bottled %s, and an emergency %s kit in your glove %s.\n"+
