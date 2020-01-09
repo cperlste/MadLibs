@@ -12,7 +12,9 @@ public class Pizza extends Story {
 	}
 	@Override
 	public String getFormat() {
-		return "Pizza was invented by %s %s chef named %s. \nTo make "
+		return "Pizza was invented by "
+				+ "a"
+				+ " %s %s chef named %s. \nTo make "
 				+ "pizza, you need to take a lump of %s, and make a thin, round "
 				+ "%s %s. \nThen you cover it with %s sauce, %s cheese, and fresh chopped %s."
 				+ "\nNext you have to bake it in a very hot %s. \nWhen it is done, cut into "

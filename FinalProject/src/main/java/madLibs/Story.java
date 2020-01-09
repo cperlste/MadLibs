@@ -6,6 +6,7 @@ public abstract class Story {
 	public String getStory(String[] userInput) {
 		return String.format(getFormat(), (Object []) userInput);
 	}
+	/*
 	public String testForVowel(String string) {
 		if (string.toUpperCase().charAt(0)== 'A'
 				||string.toUpperCase().charAt(0)== 'E'
@@ -16,4 +17,5 @@ public abstract class Story {
 		}
 		return "a "+string;
 	}
+	*/
 }
