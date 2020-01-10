@@ -1,6 +1,7 @@
 package madLibs;
 
 import java.util.ArrayList;
+import java.util.Scanner;
 
 public class Menu {
 	private final Prompter prompter;
@@ -20,10 +21,9 @@ public class Menu {
 		stories.add(new LetterFromCamp());
 
 		 int storyChoice;
-		do{
-			storyChoice = getStoryChoice();
+		 while ((storyChoice = getStoryChoice()) != 7){
 			printStoryFromChoice(stories, storyChoice);
-		}while (storyChoice != 7);
+		}
 	}
 
 	void printStoryFromChoice(ArrayList<Story> stories, int storyChoice) {
