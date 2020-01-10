@@ -23,11 +23,11 @@ public class Menu {
 		 int storyChoice;
 		do{
 			storyChoice = getStoryChoice();
-			getStoryFromChoice(stories, storyChoice);
+			printStoryFromChoice(stories, storyChoice);
 		}while (storyChoice != 7);
 	}
 
-	void getStoryFromChoice(ArrayList<Story> stories, int storyChoice) {
+	void printStoryFromChoice(ArrayList<Story> stories, int storyChoice) {
 		Story currStory = stories.get(storyChoice-1);
 		String[] userInputs = storySetup(currStory.getPrompts());
 		prompter.println(currStory.getStory(userInputs));
