@@ -20,14 +20,12 @@ public class MainTest {
 	public void testStorySetup() {
 		String[] prompts = { "noun", "verb", "adjective", "plural noun", "adverb" };
 		Prompter prompter = Mockito.mock(Prompter.class);
-		Mockito.when(prompter.promptString("noun")).thenReturn("person");
-		Mockito.when(prompter.promptString("verb")).thenReturn("stop");
-		Mockito.when(prompter.promptString("adjective")).thenReturn("silly");
-		Mockito.when(prompter.promptString("plural noun")).thenReturn("files");
-		Mockito.when(prompter.promptString("adverb")).thenReturn("lazily");
 		Menu menu = new Menu(prompter);
-		String[] userInput = menu.storySetup(prompts);
 		String[] array = { "person", "stop", "silly", "files", "lazily" };
-		assertArrayEquals(array, userInput);
+	
+		Mockito.when(menu.storySetup(prompts)).thenReturn(array);
+		
+		
+		assertArrayEquals(array,menu.storySetup(prompts));
 	}
 }

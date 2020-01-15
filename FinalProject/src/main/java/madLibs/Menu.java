@@ -40,10 +40,7 @@ public class Menu {
 	}
 
 	String[] storySetup(String[] prompts) {
-		String[] userInput = new String[prompts.length];
-		for (int x = 0; x < prompts.length; x++) {
-			userInput[x] = prompter.promptString("Enter " + prompts[x] + ": ");
-		}
-		return userInput;
+		
+		return prompter.promptStringArray(prompts);
 	}
 }

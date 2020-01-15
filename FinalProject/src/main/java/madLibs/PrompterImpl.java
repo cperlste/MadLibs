@@ -24,4 +24,14 @@ public class PrompterImpl implements Prompter {
 		return scanner.nextLine();
 	}
 
+	@Override
+	public String[] promptStringArray(String[] array) {
+		String[] input = new String[array.length];
+		for (int x = 0; x < array.length; x++) {
+			System.out.println("Enter " + array[x]+ ":");
+			input[x] = scanner.nextLine();
+		}
+		return input;
+	}
+
 }
