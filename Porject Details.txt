@@ -3,6 +3,6 @@ repository link: https://github.com/cperlste/MadLibs
 This program is a MadLibs game which prompts the user for different 
 parts of speech and returns a story with the inputted words.
 
-Please notes that while the code coverage tool shows about 52%
+Please note that while the code coverage tool shows about 52%
 code coverage, our program is sufficiently tested because we did 
 not want to test the getters and setters for each of the stories.
